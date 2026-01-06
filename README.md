@@ -8,28 +8,40 @@ Expand knowledge beyond the comfort zone by building real applications in unfami
 
 ## Facets
 
-| Facet | Stack | Status | Description |
-|-------|-------|--------|-------------|
-| Domain Hunter | TBD | Planning | Domain availability checker with monitoring |
+| Facet | Stack | Status | Repository |
+|-------|-------|--------|------------|
+| [Domain Hunter](https://github.com/berckan/DomainHunter) | Go + HTMX | In Progress | [berckan/DomainHunter](https://github.com/berckan/DomainHunter) |
 | *TBD* | Next.js | Planned | - |
 | *TBD* | SvelteKit | Planned | - |
 | *TBD* | Solid.js | Planned | - |
 
-## Structure
+## Architecture
+
+Each facet is a **standalone repository** - fully independent, deployable, and portfolio-ready. StackQuest serves as the index/hub linking all projects together.
 
 ```
-stackquest/
-├── facets/
-│   ├── domain-hunter/    # First facet
-│   └── .../              # Future facets
-├── hub/                  # Central navigation (future)
-└── docs/                 # Project documentation
+StackQuest (this repo)
+├── Links to individual facet repos
+└── Documentation & planning
+
+Individual Facets (separate repos)
+├── DomainHunter (Go + HTMX)
+├── [Future facet] (Next.js)
+└── ...
 ```
 
 ## Timeline
 
 **Start:** January 2026
-**Goal:** Multiple functional facets by end of 2026
+**Goal:** 4+ functional facets by end of 2026
+
+## Progress
+
+- [x] Project initialized
+- [x] Domain Hunter started (Go + HTMX)
+- [ ] Domain Hunter MVP complete
+- [ ] Second facet selected
+- [ ] Hub/landing page created
 
 ---
 
