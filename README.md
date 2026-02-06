@@ -11,6 +11,7 @@ Expand knowledge beyond the comfort zone by building real applications in unfami
 | Facet | Stack | Status | Repository |
 |-------|-------|--------|------------|
 | [Domain Hunter](https://github.com/berckan/DomainHunter) | Go + HTMX | In Progress | [berckan/DomainHunter](https://github.com/berckan/DomainHunter) |
+| [Mono](https://github.com/berckan/mono) | C + SDL2 | Released (v1.9.0) | [berckan/mono](https://github.com/berckan/mono) |
 | *TBD* | Next.js | Planned | - |
 | *TBD* | SvelteKit | Planned | - |
 | *TBD* | Solid.js | Planned | - |
@@ -26,6 +27,7 @@ StackQuest (this repo)
 
 Individual Facets (separate repos)
 ├── DomainHunter (Go + HTMX)
+├── Mono (C + SDL2)
 ├── [Future facet] (Next.js)
 └── ...
 ```
@@ -40,7 +42,8 @@ Individual Facets (separate repos)
 - [x] Project initialized
 - [x] Domain Hunter started (Go + HTMX)
 - [ ] Domain Hunter MVP complete
-- [ ] Second facet selected
+- [x] Mono released (C + SDL2 music player for Trimui Brick)
+- [ ] Second web facet selected
 - [ ] Hub/landing page created
 
 ---
